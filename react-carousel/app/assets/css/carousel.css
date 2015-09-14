@@ -1,0 +1,122 @@
+/* line 1, ../../sass/carousel.scss */
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 1024px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* line 8, ../../sass/carousel.scss */
+.carousel-arrow {
+  font-size: 12px;
+  background-color: rgba(37, 43, 48, 0.8);
+  top: 180px;
+  color: #fff;
+  height: 35px;
+  width: 20px;
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+}
+
+/* line 20, ../../sass/carousel.scss */
+.carousel-arrow:hover {
+  background-color: rgba(37, 43, 48, 0.5);
+}
+
+/* line 24, ../../sass/carousel.scss */
+.carousel-arrow.left {
+  left: 0;
+  padding: 10px 16px 10px 24px;
+}
+
+/* line 29, ../../sass/carousel.scss */
+.carousel-arrow.right {
+  right: 0;
+  padding: 10px 21px 10px 19px;
+}
+
+/* line 34, ../../sass/carousel.scss */
+.carousel-block {
+  position: relative;
+  width: 1140px;
+  margin: 0 auto;
+}
+
+/* line 40, ../../sass/carousel.scss */
+.carousel-picture {
+  height: 480px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* line 46, ../../sass/carousel.scss */
+.carousel-picture > img {
+  width: 100%;
+}
+
+/* line 50, ../../sass/carousel.scss */
+.carousel-picture-block {
+  margin: 4px;
+}
+
+/* line 54, ../../sass/carousel.scss */
+.carousel-picture-title {
+  font-size: 24px;
+  padding: 10px 25px;
+  background-color: rgba(37, 43, 48, 0.8);
+  bottom: 0;
+  color: #fff;
+  height: 35px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  cursor: default;
+}
+
+/* line 67, ../../sass/carousel.scss */
+.carousel-slider {
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* line 72, ../../sass/carousel.scss */
+#bullet-size {
+  display: none;
+}
+
+/* line 76, ../../sass/carousel.scss */
+#bullet-size, .carousel-slider li {
+  width: 20px;
+}
+
+/* line 80, ../../sass/carousel.scss */
+.carousel-slider li {
+  list-style-type: none;
+  float: left;
+}
+
+/* line 85, ../../sass/carousel.scss */
+.carousel-slider li div {
+  background-color: rgba(37, 43, 48, 0.8);
+  cursor: pointer;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+/* line 94, ../../sass/carousel.scss */
+.carousel-slider li div.carousel-current-picture {
+  background-color: rgba(37, 43, 48, 0.5);
+}
+
+/* line 98, ../../sass/carousel.scss */
+.current-carousel-item.animated {
+  transition-timing-function: ease;
+  -webkit-transition: left 0.5s;
+  /* For Safari 3.1 to 6.0 */
+  transition: left 0.5s;
+}
+
+/*# sourceMappingURL=carousel.css.map */
